@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>flippable-card demo</title>
+
+    <script src="../../@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+
+    <script type="module" src="../../@polymer/iron-demo-helpers/demo-pages-shared-styles.js"></script>
+    <script type="module" src="../../@polymer/iron-demo-helpers/demo-snippet.js"></script>
+    <script type="module" src="../flippable-card.js"></script>
+    <custom-style>
+        <style is="custom-style" include="demo-pages-shared-styles"></style>
+    </custom-style>
+</head>
+<body>
+
+<script type="module">
+const $_documentContainer = document.createElement('template');
+
+$_documentContainer.innerHTML = `<div class="vertical-section-container centered">
+    <h3>flippable-card</h3>
+    <demo-snippet>
+        <template>
+            <flippable-card unrevealed front="https://media.apnarm.net.au/media/images/2018/12/13/b881722048z1_20181213203522_000g7l1btgf33-0-jx1usssqa0wjz8wbgr2.jpg"></flippable-card>
+        </template>
+    </demo-snippet>
+</div>`;
+
+document.body.appendChild($_documentContainer.content);
+</script>
+<script type="module">
+import '../../@polymer/iron-demo-helpers/demo-pages-shared-styles.js';
+import '../../@polymer/iron-demo-helpers/demo-snippet.js';
+document.querySelectorAll("flippable-card").forEach(c => c.addEventListener("click", e=> e.target.flip()));
+</script>
+</body>
+</html>
