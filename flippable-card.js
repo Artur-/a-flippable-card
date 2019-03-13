@@ -72,7 +72,7 @@ class ImageCard extends PolymerElement {
           backface-visibility: hidden;
           -webkit-backface-visibility: hidden;
           position: absolute;
-          border-radius: 10px;
+          border-radius: 4%;
           background: #fff;
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
             0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -83,13 +83,13 @@ class ImageCard extends PolymerElement {
           background-color: rgba(255, 150, 150, 1);
         }
         #back {
-          padding: 10px;
+          padding: 4%;
         }
 
         #back-draw {
           height: 100%;
           width: 100%;
-          border-radius: 10px;
+          border-radius: 4%;
           background-color: #8fa0b5;
           background-repeat: no-repeat;
           background-position: 50% 50%;
