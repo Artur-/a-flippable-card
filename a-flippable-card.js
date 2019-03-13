@@ -1,16 +1,16 @@
 /**
-`<flippable-card>` is a game card element. The card can be flipped showing its back or front face. The front face shows an image.
+`<a-flippable-card>` is a flippable card element showing images on both sides. The card can be flipped showing its back or front face.
 
 Example:
 
-    <flippable-card back="https://upload.wikimedia.org/wikipedia/commons/8/87/Card_back_05.svg" front="https://media.apnarm.net.au/media/images/2018/12/13/b881722048z1_20181213203522_000g7l1btgf33-0-jx1usssqa0wjz8wbgr2.jpg"></flippable-card>
+    <a-flippable-card back="https://upload.wikimedia.org/wikipedia/commons/8/87/Card_back_05.svg" front="https://media.apnarm.net.au/media/images/2018/12/13/b881722048z1_20181213203522_000g7l1btgf33-0-jx1usssqa0wjz8wbgr2.jpg"></a-flippable-card>
 
 @demo demo/index.html
 */
 import { html } from "../@polymer/polymer/polymer-legacy.js";
 
 import { PolymerElement } from "../@polymer/polymer/polymer-element.js";
-class ImageCard extends PolymerElement {
+class AFlippableCard extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -126,7 +126,7 @@ class ImageCard extends PolymerElement {
   }
 
   static get is() {
-    return "flippable-card";
+    return "a-flippable-card";
   }
 
   static get properties() {
@@ -176,4 +176,4 @@ class ImageCard extends PolymerElement {
   }
 }
 
-customElements.define(ImageCard.is, ImageCard);
+customElements.define(AFlippableCard.is, AFlippableCard);

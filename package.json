@@ -1,20 +1,17 @@
 {
-  "description": "flippable card element.",
+  "description": "a flippable card element.",
   "keywords": [
-    "flippable-card"
+    "a-flippable-card"
   ],
-  "homepage": "https://github.com/Artur-/flippable-card",
-  "name": "flippable-card",
+  "homepage": "https://github.com/Artur-/a-flippable-card",
+  "repository": "https://github.com/Artur-/a-flippable-card",
+  "license": "Apache-2.0",
+  "name": "a-flippable-card",
   "version": "1.0.0",
-  "main": "flippable-card.js",
+  "main": "a-flippable-card.js",
   "author": "Artur Signell <artur@vaadin.com>",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
   },
-  "devDependencies": {
-    "@polymer/iron-component-page": "^3.0.0-pre.18",
-    "@polymer/iron-demo-helpers": "^3.0.0-pre.18",
-    "wct-browser-legacy": "^1.0.1",
-    "@webcomponents/webcomponentsjs": "^2.0.0"
-  }
+  "devDependencies": {}
 }
