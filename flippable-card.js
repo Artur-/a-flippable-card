@@ -108,68 +108,6 @@ class ImageCard extends PolymerElement {
           transform: rotateZ(180deg);
         }
 
-        .h-centered {
-          left: 50%;
-          transform: translateX(-50%);
-        }
-
-        .v-centered {
-          top: 50%;
-          transform: translateY(-50%);
-        }
-
-        .h-centered.v-centered {
-          transform: translateX(-50%) translateY(-50%);
-        }
-
-        .h-centered.reversed {
-          transform: translateX(-50%) rotateZ(180deg);
-        }
-
-        .v-centered.reversed {
-          transform: translateY(-50%) rotateZ(180deg);
-        }
-
-        .h-centered.v-centered.reversed {
-          transform: translateX(-50%) translateY(-50%) rotateZ(180deg);
-        }
-
-        .top {
-          top: 10%;
-        }
-
-        .bottom {
-          bottom: 10%;
-        }
-
-        .left {
-          left: 20%;
-        }
-
-        .right {
-          right: 20%;
-        }
-
-        .near-top {
-          top: 20%;
-        }
-
-        .near-bottom {
-          bottom: 20%;
-        }
-
-        .far-top {
-          top: 30%;
-        }
-
-        .far-bottom {
-          bottom: 30%;
-        }
-
-        .hidden {
-          display: none;
-        }
-
         .figure {
           width: 100%;
           height: 100%;
